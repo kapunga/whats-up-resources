@@ -42,3 +42,5 @@ com.typesafe.config.ConfigException$Missing: merge of system properties,referenc
 
 scala>
 ```
+
+I made a scala2.13.8 branch and both of these things work just fine there.
