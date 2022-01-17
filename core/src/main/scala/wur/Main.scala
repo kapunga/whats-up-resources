@@ -1,9 +1,7 @@
 package wur
 
-import com.typesafe.config.{Config, ConfigFactory}
 
 object Hello:
-  val config: Config = ConfigFactory.load()
-  val world: String = config.getString("hello.world")
+  def world: String = io.Source.fromResource("hello.txt").getLines.mkString("\n")
 
 @main def run = println(Hello.world)

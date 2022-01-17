@@ -7,7 +7,5 @@ lazy val core = project.in(file("core"))
     version := "0.1.0-SNAPSHOT",
 
     scalaVersion := scala3Version,
-
-    libraryDependencies += "com.typesafe" % "config" % "1.4.1"
   )
 
